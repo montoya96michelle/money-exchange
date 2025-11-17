@@ -18,20 +18,24 @@ Además, la lista de monedas se carga **dinámicamente desde la API**, lo que pe
 ---
 
 ## 🗂 Estructura del proyecto
-
-E:/Alura/moneyexchange/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com/alura/moneyexchange/
-│ │ │ ├── MainSwing.java # Interfaz gráfica del conversor
-│ │ │ └── CurrencyAPI.java # Lógica para obtener monedas y tasas de cambio
-│ │ └── resources/
-│ └── test/
-├── pom.xml # Dependencias y configuración de Maven
-└── README.md
-
-
+```
+📦 money-exchange/
+├── 📄 pom.xml
+├── 📘 README.md
+├── 📁 src/
+│   ├── 📁 main/
+│   │   ├── 📁 java/
+│   │   │   └── com/
+│   │   │       └── alura/
+│   │   │           └── moneyexchange/
+│   │   │               ├── 🔌 CurrencyAPI.java
+│   │   │               ├── 🖥️ MainSwing.java
+│   │   │               └── 📦 package-info.java
+│   │   └── 📁 resources/
+│   └── 📁 test/
+│       ├── 📁 java/
+│       └── 📁 resources/
+```
 
 ---
 
